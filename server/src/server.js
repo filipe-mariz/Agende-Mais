@@ -1,7 +1,11 @@
 const express = require('express');
+const cors = require('cors');
+const route = require('./routes');
+require('dotenv');
 
 const app = express();
 
-app.listen(3333);
+app.use(cors());
+app.use(route);
 
-console.log('server is run');
+app.listen(process.env.PORT_SERVER, () => console.log("The server is run"));

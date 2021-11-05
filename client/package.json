@@ -1,0 +1,43 @@
+{
+  "name": "amigo-front",
+  "description": "AmigoFront",
+  "version": "v4.62.65",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amigoapp/amigo.git"
+  },
+  "scripts": {
+    "start:docker": "gulp",
+    "lint": "eslint 'js/**/*.js'",
+    "lint:fix": "eslint 'js/**/*.js' --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "7.12.1",
+    "axios": "0.21.4",
+    "babel-plugin-angularjs-annotate": "0.10.0",
+    "bootstrap-colorpicker": "^2.5.3",
+    "colors": "1.1.2",
+    "currency.js": "2.0.3",
+    "dompurify": "^2.3.3",
+    "eslint": "6.5.1",
+    "gulp": "3.9.1",
+    "gulp-babel": "8.0.0",
+    "gulp-clean": "0.3.2",
+    "gulp-clean-css": "4.3.0",
+    "gulp-concat": "2.4.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-eslint": "6.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-if": "3.0.0",
+    "gulp-string-replace": "1.1.2",
+    "gulp-uglify": "3.0.2",
+    "gulp-watch": "4.3.8",
+    "sendbird": "3.0.155",
+    "yargs": "16.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.2"
+  }
+}
