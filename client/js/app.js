@@ -2,4 +2,13 @@ var agendeMais = angular.module('medServices', ['mentio', 'angularMoment', 'ngFi
 
 agendeMais.config(function($stateProvider) {
 
+    $stateProvider.state('index' , {
+        url: '/index',
+        views: {
+            '': {
+                templateUrl: 'views/index.html',
+                controller: 'indexCtrl'
+            }
+        }
+    }) 
 });
